@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/index",
+    "pages/contact/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "绿帽子",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "borderStyle": "",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/home.png",
+        "selectedIconPath": "static/image/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "iconPath": "static/image/contact.png",
+        "selectedIconPath": "static/image/contact1.png",
+        "text": "联系"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "iconPath": "static/image/message.png",
+        "selectedIconPath": "static/image/message1.png",
+        "text": "信息"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

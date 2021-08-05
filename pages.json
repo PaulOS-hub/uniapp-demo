@@ -1,0 +1,110 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		}, {
+			"path": "pages/message/index",
+			"style": {
+				"h5": {
+					"pullToRefresh": {
+						"color": "#123123"
+					}
+				},
+				"onReachBottomDistance": 100
+			},
+			"onPullDownRefresh": true
+		},
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/goodsList/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "绿帽商城",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "components/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/connectus/connectus",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/commuicationjpg/commuicationjpg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "绿油油商城",
+		"navigationBarBackgroundColor": "#f00",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		// "color":"#A0522D",
+		"selectedColor":"#f00",
+		"borderStyle": "", // 上边框颜色
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/home1.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/contact/index",
+			"iconPath": "static/image/contact.png",
+			"selectedIconPath": "static/image/contact1.png",
+			"text": "资讯"
+		}, {
+			"pagePath": "pages/message/index",
+			"iconPath": "static/image/message.png",
+			"selectedIconPath": "static/image/message1.png",
+			"text": "更多"
+		}]
+	}
+	// 启动模式,开发期间有效,模拟直达页面的场景
+	// "condition": {
+	// 	"current": 0,
+	// 	"list": [
+	// 		"name": "详情页",
+	// 		"path": "",
+	// 		"query": ""
+	// 	]
+	// }
+}
